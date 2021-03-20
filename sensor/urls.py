@@ -8,6 +8,8 @@ urlpatterns = [
     url(r'^gen/$', views.gen, name='gen'),
     #Register url
     url(r'^register/$',views.register,name="register"),
+    url(r'^add/$',views.addPlant,name='addPlant'),
+    url(r'^mod/$',views.modPlant,name='modPlant'),
     #Login url
     url(r'^login_user/$', views.login_user, name='login_user'),
     #Logout url
